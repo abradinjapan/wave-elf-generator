@@ -5,6 +5,5 @@
 main()() = {
     wave.set(wave.integer.48)(0)
     wave.print.character(0)()
-    wave.set(wave.integer.10)(new_line)
-    wave.print.character(new_line)()
+    string.print.new_line()()
 }
